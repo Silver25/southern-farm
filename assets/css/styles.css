@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+/* General styles for all web page */
+body {
+    min-height: 100vh;  /* minimum height of 100% of the viewport height, to stretch larger than the height of the screen when there is enough content on the page */
+    display: flex;
+    flex-direction: column;  /* elements will still show underneath each other */
+    color: #3a3a3a;
+}
+
 /* Header */
 header {
     background-color: lightcoral;
@@ -13,6 +21,7 @@ header {
 /* Main content */
 main {
     background-color: lightblue;
+    flex: 1 0 auto;  /* take up any surplus space it should not shrink when the screen is too small to show all the content */
 }
 
 /* Footer */
