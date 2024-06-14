@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:ital,wght@0,300;1,300&display=swap');  /* Google fonts import */
+
 /* Asterisk wildcard selector to override the browser defaults */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font: 100% inherit;
 }
 
 /* General styles for all web page */
@@ -11,6 +14,27 @@ body {
     display: flex;
     flex-direction: column;  /* elements will still show underneath each other */
     color: #3a3a3a;
+    font-family: "Lato", sans-serif;
+}
+
+/* Google fonts style class rules */
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
 }
 
 /* Header */
