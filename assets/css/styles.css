@@ -141,4 +141,16 @@ Media queries should always go at the bottom of CSS file with the smallest scree
     .top-nav-button-label {
         display: none;  /* to hide label X for dropdown top menu */
     }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to adopt for biger header */
+        margin-top: 79px;
+    }
 }
