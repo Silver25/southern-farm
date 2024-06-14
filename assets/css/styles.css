@@ -37,7 +37,8 @@ body {
     font-style: italic;
 }
 
-/* Header */
+
+/* ----- Header of the page ----- */
 header {
     background-color: #fff;
     padding: 0 1rem;
@@ -59,13 +60,29 @@ h1 {
     color: #252525;
 }
 
-/* Main content */
+#top-menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#top-menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+
+/* ----- Main content section on the page ----- */
 main {
     background-color: lightblue;
     flex: 1 0 auto;  /* take up any surplus space it should not shrink when the screen is too small to show all the content */
 }
 
-/* Footer */
+
+/* ----- Footer of the page ----- */
 footer {
     background-color: orange;
 }
