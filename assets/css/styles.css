@@ -109,6 +109,7 @@ So for that, we need the tilde to indicate that we want to target the adjoining 
 main {
     background-color: lightblue;
     flex: 1 0 auto;  /* take up any surplus space it should not shrink when the screen is too small to show all the content */
+    margin-top: 45px;  /* Push down placeholder text, covered with header because header's position is fixed, it was taken out of the normal flow of elements on the page */
 }
 
 
