@@ -120,6 +120,7 @@ footer {
 
 /* First start build each part of the project so it looks good on mobile before start thinking about larger screens, where follows tablet size.
 Media queries should always go at the bottom of CSS file with the smallest screen size first [tablet 768px] and the largest last [1200px and up] */
+
 @media screen and (min-width: 768px) {  /* Any CSS written between these two curly braces will only be applied at the larger screen sizes. */
     /* Header */
     nav {
@@ -150,7 +151,13 @@ Media queries should always go at the bottom of CSS file with the smallest scree
 
     /* Main content */
     main {
-        /* Push main content down to adopt for biger header */
-        margin-top: 79px;
+        margin-top: 79px;  /* Push main content down to adopt for biger header */
     }
+}
+
+@media screen and (min-width: 992px) {  /* Next rules are for laptops and monitors with 992px and up */
+    #top-menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+    
 }
