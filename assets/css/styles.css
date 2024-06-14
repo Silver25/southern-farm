@@ -97,7 +97,7 @@ So for that, we need the tilde to indicate that we want to target the adjoining 
 }
 
 #top-nav-button {
-    display: none;
+    display: none;  /* to hide checkbox becouse only label X is enough from now on */
 }
 
 .top-nav-button-label {
@@ -116,4 +116,29 @@ main {
 /* ----- Footer of the page ----- */
 footer {
     background-color: orange;
+}
+
+/* First start build each part of the project so it looks good on mobile before start thinking about larger screens, where follows tablet size.
+Media queries should always go at the bottom of CSS file with the smallest screen size first [tablet 768px] and the largest last [1200px and up] */
+@media screen and (min-width: 768px) {  /* Any CSS written between these two curly braces will only be applied at the larger screen sizes. */
+    /* Header */
+    nav {
+        display: block;  /* to make sure that the top navbar is always displayed */
+        position: relative;  /* placed back inside the header */
+        box-shadow: none;  /* to remove the box shadow */
+        width: fit-content;  /* This way it no longer takes up all of the space in the header, allowing flex styles from earlier to push it nicely to the right. */
+        padding-right: 1rem;  /* menu items will not stick to the edge of the screen */
+    }
+
+    #top-menu {
+        display: flex;  /* links are all shown in a row */
+    }
+
+    #top-menu > li {
+        padding-left: 1rem;  /* nav bar items aren't sticking together anymore */
+    }
+
+    .top-nav-button-label {
+        display: none;  /* to hide label X for dropdown top menu */
+    }
 }
