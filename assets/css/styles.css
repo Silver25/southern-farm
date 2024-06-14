@@ -46,6 +46,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 3px 2px #3a3a3a;  /* horizontal offset, vertical offset, the blur [how soft or hard the shadow will look], color value, needed when nav links are hidden */
+    display: flex;  /* box and X will show in a row */
+    justify-content: space-between;  /* box and X with space */
+    align-items: baseline;  /* box and X will show in a line vertically */
 }
 
 header a {
@@ -83,6 +86,22 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 3px 2px #3a3a3a;  /* horizontal offset, vertical offset, the blur [how soft or hard the shadow will look], color value */
     display: none;  /* items are hidden until the user clicks to open them */
+    top: 100%;  /* tells the navigation element that the top of the element should start at the bottom of its parent, 0% would represent the top of the parent */
+}
+
+/* Check boxes have a pseudo class that indicates when they are checked, which we can use in our css.
+When this is checked, we want the sibling nav element to display.
+So for that, we need the tilde to indicate that we want to target the adjoining nav element. */
+#top-nav-button:checked~nav {
+    display: block;
+}
+
+#top-nav-button {
+    display: none;
+}
+
+.top-nav-button-label {
+    font-size: 2rem;
 }
 
 
