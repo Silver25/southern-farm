@@ -17,6 +17,13 @@ body {
     font-family: "Lato", sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: "Dancing Script", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
 /* Google fonts style class rules */
 .dancing-script {
     font-family: "Dancing Script", cursive;
@@ -54,13 +61,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: "Dancing Script", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
 }
 
 #top-menu {
@@ -116,6 +116,23 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/horizon-FelixMittermeier-pxhere.com.webp") no-repeat center center/cover;  /* centred both horizontally and vertically/automatically size itself */
+    position: relative;
+}
+
+#cover-text {
+    /* rgba value is set for the transperancy of the background */
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;  /* it will be placed relative to the hero section */
+    bottom: 30px;  /* it shows close to the bottom of hero image not to cover important part */
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #fff;
 }
 
 
@@ -168,6 +185,12 @@ Media queries should always go at the bottom of CSS file with the smallest scree
     /* Main content */
     main {
         margin-top: 79px;  /* Push main content down to adopt for biger header */
+    }
+
+    /* Hero image */
+    #cover-text {  /* width of 80% for a mobile is a bit much here as text isn't long enough to take up the surplus space */
+        width: 300px;
+        right: 50px;
     }
 }
 
