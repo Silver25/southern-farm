@@ -233,6 +233,21 @@ Media queries should always go at the bottom of CSS file with the smallest scree
         width: 300px;
         right: 50px;
     }
+
+    #benefits-physical, #benefits-mental {  /* Reasons section to be splited in columns for larger screens */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benefits-physical > div, #benefits-mental > div { 
+        width: 75%;
+    }
+
+    #benefits-mental > div { /* align the text to the right with end, and divs themselves to the right with align-self */
+        text-align: end;
+        align-self: flex-end;
+    }
 }
 
 @media screen and (min-width: 992px) {  /* Next rules are for laptops and monitors with 992px and up */
@@ -240,4 +255,31 @@ Media queries should always go at the bottom of CSS file with the smallest scree
         border-bottom: 1px solid #3a3a3a;
     }
     
+}
+
+@media screen and (min-width: 1200px) {  /* Reasons rules for largest screens */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits > div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0;
+    }
+
+    #benefits-mental {
+        order: 1;
+    }
+
+    #benefits-mental > div {
+        align-self: flex-start;
+    }
+
+    #benefits-physical > div {
+        align-self: flex-end;
+    }
 }
