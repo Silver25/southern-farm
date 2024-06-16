@@ -176,6 +176,29 @@ main {
     justify-content: center;
 }
 
+/* Meetup/Shop locations section */
+#times {
+    background: url("../images/panoramic.webp") no-repeat center/cover;
+    /* Creates responsive elements with no need for the @media rules */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* On screens they are too narrow will stop the wrapping, and expand for taking available space where is any */
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid #fff;  /* creates a grid of shop times divs over the bgr image */
+}
+
+#times h3 {
+    color: #fafafa;  /* Override general style rule for the heading colour */
+}
+
 
 /* ----- Footer of the page ----- */
 #social-networks {
