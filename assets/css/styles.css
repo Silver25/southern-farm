@@ -125,7 +125,7 @@ main {
 
 #cover-text {
     /* rgba value is set for the transperancy of the background */
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(255, 255, 255, .7);
     font-size: 130%;
     position: absolute;  /* it will be placed relative to the hero section */
     bottom: 30px;  /* it shows close to the bottom of hero image not to cover important part */
@@ -136,7 +136,11 @@ main {
 }
 
 #cover-text > h2, #cover-text > h3 {
-    color: #fff;
+    color: navy;
+}
+
+#cover-text > h3 {
+    padding-top: 40px;
 }
 
 #reasons {  /* section under hero image on landing page */
@@ -211,12 +215,13 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    background-color: #fff;
 }
 
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: navy;
 }
 
 /* First start build each part of the project so it looks good on mobile before start thinking about larger screens, where follows tablet size.
