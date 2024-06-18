@@ -78,7 +78,9 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    /*border-bottom: 1px solid #3a3a3a;*/
+    background-color: #a9dbd9;
+    font-weight: bold;
 }
 
 /* Top navigation styles with dropdown button */
