@@ -35,25 +35,25 @@ Error with the proper formating of the images in the gallery because of the miss
 
 # Credits
 Used images for Index page  
-Hero image: horizon.jpg = by Felix Mittermeier on pxhere.com  
-Cow head below paragraphs = by jod67 from istock.com  
-Timetables bgr image: panoramic.jpg = Open source image from publicdomainpictures.net  
+- Hero image: horizon.jpg = by Felix Mittermeier on pxhere.com  
+- Cow head below paragraphs = by jod67 from istock.com  
+- Timetables bgr image: panoramic.jpg = Open source image from publicdomainpictures.net  
 
 Used images for the Freebies page  
-dairy-products.jpg = https://www.health.harvard.edu  
-milk-in-glass.jpg = https://www.forbes.com  
-organic-milk.jpg = https://www.thefrozengarden.com  
-milkshake.jpg = https://www.eatingwell.com  
-cheese.jpg = https://www.healthline.com/nutrition/healthiest-cheese  
-cheese-pile.jpg = https://www.gq.com/story/the-surprising-health-benefits-of-cheese  
-butter-plate.jpg = https://blog.providence.org/regional-blog-news  
-sour-cream.jpg = https://www.realsimple.com  
-soften-butter.jpg = https://cravingcork.ie  
-yogurt.jpg = https://cookidoo.co.uk/  
+- dairy-products.jpg = https://www.health.harvard.edu  
+- milk-in-glass.jpg = https://www.forbes.com  
+- organic-milk.jpg = https://www.thefrozengarden.com  
+- milkshake.jpg = https://www.eatingwell.com  
+- cheese.jpg = https://www.healthline.com/nutrition/healthiest-cheese  
+- cheese-pile.jpg = https://www.gq.com/story/the-surprising-health-benefits-of-cheese  
+- butter-plate.jpg = https://blog.providence.org/regional-blog-news  
+- sour-cream.jpg = https://www.realsimple.com  
+- soften-butter.jpg = https://cravingcork.ie  
+- yogurt.jpg = https://cookidoo.co.uk/  
   
 Conversion of the images from JPG file format to WEBP file format:  
-using Windows software [IrfanView](https://www.irfanview.com/) with plugin WEBP - (version 4.63, allows IrfanView to read/write WEBP (Weppy Format) files)  
-using online tool [FreeConvert](https://www.freeconvert.com/jpg-to-webp)  
+- using Windows software [IrfanView](https://www.irfanview.com/) with plugin WEBP - (version 4.63, allows IrfanView to read/write WEBP (Weppy Format) files)  
+- using online tool [FreeConvert](https://www.freeconvert.com/jpg-to-webp)  
 
 -----
 
