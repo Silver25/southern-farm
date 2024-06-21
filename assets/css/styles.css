@@ -121,7 +121,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/horizon-FelixMittermeier-pxhere.com.webp") no-repeat center center/cover;  /* centred both horizontally and vertically/automatically size itself */
+    background: url("../images/horizon.webp") no-repeat center center/cover;  /* centred both horizontally and vertically/automatically size itself */
     position: relative;
 }
 
