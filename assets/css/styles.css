@@ -211,7 +211,12 @@ main {
 
 /* Gallery page */
 #photos img {
-    width: 100%;  /* width value to fit mobile screens */
+    width: 100%;  /* width value to fit mobile screens and avoid overfow issue */
+    line-height: 1em;  /* to prevent image alt text from being unreadable */
+}
+
+#photos {
+    line-height: 0;  /* Removing automatic line height text property has to space out lines */
 }
 
 
@@ -234,7 +239,14 @@ main {
 /* First start build each part of the project so it looks good on mobile before start thinking about larger screens, where follows tablet size.
 Media queries should always go at the bottom of CSS file with the smallest screen size first [tablet 768px] and the largest last [1200px and up] */
 
-@media screen and (min-width: 768px) {  /* Any CSS written between these two curly braces will only be applied at the larger screen sizes. */
+@media screen and (min-width: 576px) {  /* creating new gallery rules "masonry design style" for large or landscape phones (576px and up) */
+    #photos {
+        column-count: 2;  /* indicates how many columns to create */
+        column-gap: 0;  /* removing gap-space between columns */
+    }
+}
+
+@media screen and (min-width: 768px) {  /* Any CSS written between these two curly braces will only be applied at the tablets and larger screen sizes. */
     /* Header */
     nav {
         display: block;  /* to make sure that the top navbar is always displayed */
@@ -287,11 +299,21 @@ Media queries should always go at the bottom of CSS file with the smallest scree
         text-align: end;
         align-self: flex-end;
     }
+
+    /* Gallery columns */
+    #photos {
+        column-count: 3;  /* creates 3 columns on larger screens */
+    }
 }
 
 @media screen and (min-width: 992px) {  /* Next rules are for laptops and monitors with 992px and up */
     #top-menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* Gallery columns */
+    #photos {
+        column-count: 4;  /* creates 4 columns on bigest screens */
     }
     
 }
