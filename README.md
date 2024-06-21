@@ -28,6 +28,24 @@ https://silver25.github.io/organic-dairy-farm/
 -----
 
 # Credits
+Used images for Index page  
+Hero image: horizon.jpg = by Felix Mittermeier on pxhere.com  
+Cow head below paragraphs = by jod67 from istock.com
+Timetables bgr image: panoramic.jpg = Open source image from publicdomainpictures.net  
+
+Used images for the Freebies page  
+dairy-products.jpg = https://www.health.harvard.edu  
+milk-in-glass.jpg = https://www.forbes.com  
+organic-milk.jpg = https://www.thefrozengarden.com  
+milkshake.jpg = https://www.eatingwell.com  
+cheese.jpg = https://www.healthline.com/nutrition/healthiest-cheese  
+cheese-pile.jpg = https://www.gq.com/story/the-surprising-health-benefits-of-cheese  
+butter-plate.jpg = https://blog.providence.org/regional-blog-news  
+sour-cream.jpg = https://www.realsimple.com  
+soften-butter.jpg = https://cravingcork.ie  
+yogurt.jpg = https://cookidoo.co.uk/  
+  
+Conversion of the images from JPG file format to WEBP file format using online tool [FreeConvert](https://www.freeconvert.com/jpg-to-webp)  
 
 -----
 
