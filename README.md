@@ -3,7 +3,35 @@
 Code Institute Project 1 by Silvio Martinec
 https://silver25.github.io/organic-dairy-farm/
 
-## Gitpod Reminders
+# Dairy Farm
+
+-----
+
+# Intro
+
+-----
+
+# Features
+
+-----
+
+# Manual testing
+
+-----
+
+# Deployment
+
+-----
+
+# Future Features
+
+-----
+
+# Credits
+
+-----
+
+### Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
@@ -16,8 +44,11 @@ $ git push
 $ git status
 $ clear
 
+-----
+
 ### Checkers
-W3C HTML Validator: https://validator.w3.org/
-W3C CSS Validator: https://jigsaw.w3.org/css-validator
-Lighthouse Audit tool: https://pagespeed.web.dev/
-Responsive Design: https://ui.dev/amiresponsive
+
+W3C HTML Validator: https://validator.w3.org/  
+W3C CSS Validator: https://jigsaw.w3.org/css-validator  
+Lighthouse Audit tool: https://pagespeed.web.dev/  
+Responsive Design: https://ui.dev/amiresponsive  
