@@ -209,6 +209,11 @@ main {
     color: #fafafa;  /* Override general style rule for the heading colour */
 }
 
+/* Gallery page */
+#photos img {
+    width: 100%;  /* width value to fit mobile screens */
+}
+
 
 /* ----- Footer of the page ----- */
 #social-networks {

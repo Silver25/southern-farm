@@ -9,6 +9,9 @@ https://silver25.github.io/organic-dairy-farm/
 
 # Intro
 
+Wireframe created with the help of online service [Wireframe](https://wireframe.cc)  
+  
+![Wireframe for site](documents/wireframe01.webp)
 -----
 
 # Features
@@ -17,6 +20,9 @@ https://silver25.github.io/organic-dairy-farm/
 
 # Manual testing
 
+Error with the proper formating of the images in the gallery because of the missed action to reload the page, ignoring cached content.  
+
+![Error with formating](documents/error04.webp)
 -----
 
 # Deployment
@@ -30,7 +36,7 @@ https://silver25.github.io/organic-dairy-farm/
 # Credits
 Used images for Index page  
 Hero image: horizon.jpg = by Felix Mittermeier on pxhere.com  
-Cow head below paragraphs = by jod67 from istock.com
+Cow head below paragraphs = by jod67 from istock.com  
 Timetables bgr image: panoramic.jpg = Open source image from publicdomainpictures.net  
 
 Used images for the Freebies page  
@@ -45,7 +51,9 @@ sour-cream.jpg = https://www.realsimple.com
 soften-butter.jpg = https://cravingcork.ie  
 yogurt.jpg = https://cookidoo.co.uk/  
   
-Conversion of the images from JPG file format to WEBP file format using online tool [FreeConvert](https://www.freeconvert.com/jpg-to-webp)  
+Conversion of the images from JPG file format to WEBP file format:  
+using Windows software [IrfanView](https://www.irfanview.com/) with plugin WEBP - (version 4.63, allows IrfanView to read/write WEBP (Weppy Format) files)  
+using online tool [FreeConvert](https://www.freeconvert.com/jpg-to-webp)  
 
 -----
 
