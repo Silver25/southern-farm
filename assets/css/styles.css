@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:ital,wght@0,300;1,300&display=swap');  /* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Give+You+Glory&display=swap');
 
 /* Asterisk wildcard selector to override the browser defaults */
 * {
@@ -18,7 +18,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "Dancing Script", sans-serif;
+    font-family: "Give+You+Glory", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
@@ -29,29 +29,22 @@ h1, h2, h3 {
 }
 
 /* Google fonts style class rules */
-.dancing-script {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
+.give-you-glory-regular {
+    font-family: "Give You Glory", cursive;
     font-weight: 400;
     font-style: normal;
 }
   
-.lato-light {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
+.gentium-plus-regular {
+    font-family: "Gentium Plus", serif;
+    font-weight: 400;
     font-style: normal;
 }
   
-.lato-light-italic {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-}
-
 
 /* ----- Header of the page ----- */
 header {
-    background-color: #fff;
+    background-color: white;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -79,14 +72,16 @@ header a {
 
 .active {
     /*border-bottom: 1px solid #3a3a3a;*/
-    background-color: #a9dbd9;
+    background-color: #007bff;
+    color: #fff;
     font-weight: bold;
+    padding: 2%;
 }
 
 /* Top navigation styles with dropdown button */
 nav {
     position: absolute;  /* element is outside the normal flow of the page structure, positioned relative to the header */
-    background-color: #fff;
+    background-color: white;
     width: 100%;
     left: 0;  /* Align Top navigation links [list elements] on the left of the page */
     padding: 0 1rem;
@@ -187,7 +182,7 @@ main {
     justify-content: center;
 }
 
-/* Index, Connect page */
+/* Index, Freebies, Connect page */
 .paragraph {
     position: relative;
     padding: 20px;
@@ -215,7 +210,7 @@ main {
     /* On screens they are too narrow will stop the wrapping, and expand for taking available space where is any */
     flex-basis: 200px;
     flex-grow: 1;
-    border: 2px solid #fff;  /* creates a grid of shop times divs over the bgr image */
+    border: 2px solid white;  /* creates a grid of shop times divs over the bgr image */
 }
 
 #times h3 {
@@ -233,30 +228,30 @@ main {
 }
 
 /* Connect page Form */
-.contact-form h2 {
+.contact-form h3 {
     text-align: center;
     color: navy;
     margin-bottom: 15px;
-  }
+}
   
-  .contact-form label {
+.contact-form label {
     display: block;  /* Arrange labels to stack vertically */
     margin-bottom: 5px;
     color: navy;
     font-weight: bold;
-  }
+}
   
-  .contact-form input[type="text"],
-  .contact-form input[type="email"],
-  .contact-form input[type="date"] {
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="date"] {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
     margin-bottom: 15px;
-  }
+}
   
-  .contact-form button {
+.contact-form button {
     background-color: navy;
     color: white;
     padding: 10px 20px;
@@ -264,11 +259,11 @@ main {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
-  }
+}
   
-  .contact-form button:hover {
+.contact-form button:hover {
     background-color: #007bff;
-  }
+}
   
   
 /* ----- Footer of the page ----- */
@@ -278,7 +273,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: #fff;
+    background-color: white;
 }
 
 #social-networks i {
@@ -351,7 +346,7 @@ Media queries should always go at the bottom of CSS file with the smallest scree
         align-self: flex-end;
     }
 
-    /* Index, Connect page paragraphs */
+    /* Index, Freebies, Connect page paragraphs */
     .paragraph {
         padding: 30px;
       }
@@ -373,7 +368,7 @@ Media queries should always go at the bottom of CSS file with the smallest scree
         border-bottom: 1px solid #3a3a3a;
     }
 
-    /* Index, Connect page paragraphs */
+    /* Index, Freebies, Connect page paragraphs */
     .paragraph {
         width: 70%;
         padding: 40px;
