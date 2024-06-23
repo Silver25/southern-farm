@@ -231,6 +231,44 @@ main {
 #photos {
     line-height: 0;  /* Removing automatic line height text property has to space out lines */
 }
+
+/* Connect page Form */
+.contact-form h2 {
+    text-align: center;
+    color: navy;
+    margin-bottom: 15px;
+  }
+  
+  .contact-form label {
+    display: block;  /* Arrange labels to stack vertically */
+    margin-bottom: 5px;
+    color: navy;
+    font-weight: bold;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-form button {
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #007bff;
+  }
   
   
 /* ----- Footer of the page ----- */
@@ -322,6 +360,11 @@ Media queries should always go at the bottom of CSS file with the smallest scree
     #photos {
         column-count: 3;  /* creates 3 columns on larger screens */
     }
+
+    /* Connect page Form*/
+    .contact-form {
+        padding: 30px;
+      }
     
     }
 
@@ -332,6 +375,7 @@ Media queries should always go at the bottom of CSS file with the smallest scree
 
     /* Index, Connect page paragraphs */
     .paragraph {
+        width: 70%;
         padding: 40px;
     }
 
@@ -339,6 +383,11 @@ Media queries should always go at the bottom of CSS file with the smallest scree
     #photos {
         column-count: 4;  /* creates 4 columns on bigest screens */
     }
+
+    /* Connect page Form*/
+    .contact-form {
+        padding: 40px;
+      }
 }
 
 @media screen and (min-width: 1200px) {  /* Reasons rules for largest screens */
