@@ -1,9 +1,12 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Code Institute Project 1 by Silvio Martinec
-https://silver25.github.io/organic-dairy-farm/
-
 # Dairy Farm
+
+Discover the authentic flavor of genuine dairy products, brought to you directly from our pasture-raised cows. At Dairy Farm, we prioritize organic farming methods that prioritize the welfare and contentment of our animals. This dedication guarantees the production of the finest and most delectable milk and dairy products available, ensuring a truly exceptional experience for your taste buds.  
+
+The website's content is specifically aimed at the urban population, with a strong emphasis on the relationship between farming and family, as well as the introduction of healthy products.
+
+Live site on location: https://silver25.github.io/organic-dairy-farm/
 
 -----
 
@@ -51,9 +54,14 @@ Used images for the Freebies page
 - soften-butter.jpg = https://cravingcork.ie  
 - yogurt.jpg = https://cookidoo.co.uk/  
   
+Make use of Google Translate [https://translate.google.com/] online service for translation from Croatian to English language and spelling check.
+Run text through AI Paragraph Rewriter [https://ahrefs.com/writing-tools/paragraph-rewriter] online tool to accomplish formal style of writing.
+
 Conversion of the images from JPG file format to WEBP file format:  
 - using Windows software [IrfanView](https://www.irfanview.com/) with plugin WEBP - (version 4.63, allows IrfanView to read/write WEBP (Weppy Format) files)  
 - using online tool [FreeConvert](https://www.freeconvert.com/jpg-to-webp)  
+
+I would like to express gratitude to Code Institute and Love Running for offering a valuable step-by-step guide that was instrumental in creating the basis for this website.
 
 -----
 
