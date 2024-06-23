@@ -123,6 +123,7 @@ main {
     width: 100%;
     background: url("../images/horizon.webp") no-repeat center center/cover;  /* centred both horizontally and vertically/automatically size itself */
     position: relative;
+    margin-bottom: 5%;
 }
 
 #cover-text {
@@ -186,6 +187,18 @@ main {
     justify-content: center;
 }
 
+/* Index, Connect page */
+.paragraph {
+    position: relative;
+    padding: 20px;
+  }
+  
+  .paragraph p {
+    color: navy;
+    line-height: 1.5; /* Adjust line spacing as needed */
+    margin-bottom: 15px; /* Add spacing between paragraphs */
+  }
+
 /* Meetup/Shop locations section */
 #times {
     background: url("../images/panoramic.webp") no-repeat center/cover;
@@ -218,8 +231,8 @@ main {
 #photos {
     line-height: 0;  /* Removing automatic line height text property has to space out lines */
 }
-
-
+  
+  
 /* ----- Footer of the page ----- */
 #social-networks {
     text-align: center;
@@ -300,22 +313,32 @@ Media queries should always go at the bottom of CSS file with the smallest scree
         align-self: flex-end;
     }
 
+    /* Index, Connect page paragraphs */
+    .paragraph {
+        padding: 30px;
+      }
+
     /* Gallery columns */
     #photos {
         column-count: 3;  /* creates 3 columns on larger screens */
     }
-}
+    
+    }
 
 @media screen and (min-width: 992px) {  /* Next rules are for laptops and monitors with 992px and up */
     #top-menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 
+    /* Index, Connect page paragraphs */
+    .paragraph {
+        padding: 40px;
+    }
+
     /* Gallery columns */
     #photos {
         column-count: 4;  /* creates 4 columns on bigest screens */
     }
-    
 }
 
 @media screen and (min-width: 1200px) {  /* Reasons rules for largest screens */
