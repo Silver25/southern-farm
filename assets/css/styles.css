@@ -152,12 +152,12 @@ main {
     text-align: center;
 }
 
-#benefits-physical > div, #benefits-mental > div {
+#benefits-physical > div, #benefits-emotional > div {
     line-height: 20px;
     margin-bottom: 20px;
 }
 
-#benefits-physical > hr, #benefits-mental > hr {
+#benefits-physical > hr, #benefits-emotional > hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
@@ -331,17 +331,17 @@ Media queries should always go at the bottom of CSS file with the smallest scree
         right: 50px;
     }
 
-    #benefits-physical, #benefits-mental {  /* Reasons section to be splited in columns for larger screens */
+    #benefits-physical, #benefits-emotional {  /* Reasons section to be splited in columns for larger screens */
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    #benefits-physical > div, #benefits-mental > div { 
+    #benefits-physical > div, #benefits-emotional > div { 
         width: 75%;
     }
 
-    #benefits-mental > div { /* align the text to the right with end, and divs themselves to the right with align-self */
+    #benefits-emotional > div { /* align the text to the right with end, and divs themselves to the right with align-self */
         text-align: end;
         align-self: flex-end;
     }
@@ -399,11 +399,11 @@ Media queries should always go at the bottom of CSS file with the smallest scree
         order: 0;
     }
 
-    #benefits-mental {
+    #benefits-emotional {
         order: 1;
     }
 
-    #benefits-mental > div {
+    #benefits-emotional > div {
         align-self: flex-start;
     }
 
