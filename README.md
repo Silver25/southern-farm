@@ -22,7 +22,7 @@ Each section provides specific content or functionality as follows.
 
 Wireframe created with the help of online service [Wireframe](https://wireframe.cc)  
   
-![Wireframe for site](documents/wireframe01.webp)
+![Wireframe for site](documentation/wireframe01.webp)
 -----
 
 ## Features Present Across the Project
@@ -33,7 +33,7 @@ Wireframe created with the help of online service [Wireframe](https://wireframe.
 
 Error with the proper formating of the images in the gallery because of the missed action to reload the page, ignoring cached content.  
 
-![Error with formating](documents/error04.webp)
+![Error with formating](documentation/error04.webp)
 -----
 
 ## Deployment
