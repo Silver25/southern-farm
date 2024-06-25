@@ -4,43 +4,52 @@
 
 Discover the authentic flavor of genuine dairy products, brought to you directly from our pasture-raised cows. At Dairy Farm, we prioritize organic farming methods that prioritize the welfare and contentment of our animals. This dedication guarantees the production of the finest and most delectable milk and dairy products available, ensuring a truly exceptional experience for your taste buds.  
 
-The website's content is specifically aimed at the urban population, with a strong emphasis on the relationship between farming and family, as well as the introduction of healthy products.
-
 Live site on location: https://silver25.github.io/organic-dairy-farm/
 
 -----
 
-# Intro
+## Introduction
+
+The purpose of this project is to build a responsive website using pure HTML and CSS.  
+
+The website's content is specifically aimed at the urban population, with a strong emphasis on the relationship between farming and family, as well as the introduction of healthy products.. Users will be able to navigate through the website using a functional navigation bar that will take them to different sections of the website.  
+The main sections include  
+- Home page with About content
+- Freebies page with free content visitors can download
+- Connect page  
+
+Each section provides specific content or functionality as follows.  
 
 Wireframe created with the help of online service [Wireframe](https://wireframe.cc)  
   
 ![Wireframe for site](documents/wireframe01.webp)
 -----
 
-# Features
+## Features Present Across the Project
 
 -----
 
-# Manual testing
+## Manual testing
 
 Error with the proper formating of the images in the gallery because of the missed action to reload the page, ignoring cached content.  
 
 ![Error with formating](documents/error04.webp)
 -----
 
-# Deployment
+## Deployment
 
 -----
 
-# Future Features
+## Future Features
 
 -----
 
-# Credits
+## Credits
 Used images for Index page  
 - Hero image: horizon.jpg = by Felix Mittermeier on pxhere.com  
 - Cow head below paragraphs = by jod67 from istock.com  
 - Timetables bgr image: panoramic.jpg = Open source image from publicdomainpictures.net  
+- Cow head on 404 page = by jamesjames2541 from istock.com
 
 Used images for the Freebies page  
 - dairy-products.jpg = https://www.health.harvard.edu  
