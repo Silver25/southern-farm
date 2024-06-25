@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bentham&family=Palanquin&display=swap');
 
-/* Asterisk wildcard selector to override the browser defaults */
+/* Asterisk wildcard selector [replaces all selectors] to override the browser defaults */
 * {
     padding: 0;
     margin: 0;
