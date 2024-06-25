@@ -4,7 +4,7 @@
 
 Discover the authentic flavor of genuine dairy products, brought to you directly from our pasture-raised cows. At Dairy Farm, we prioritize organic farming methods that prioritize the welfare and contentment of our animals. This dedication guarantees the production of the finest and most delectable milk and dairy products available, ensuring a truly exceptional experience for your taste buds.  
 
-Live site on location: https://silver25.github.io/organic-dairy-farm/
+Live site is on the location: **https://silver25.github.io/organic-dairy-farm/**
 
 -----
 
@@ -20,27 +20,45 @@ The main sections include
 
 Each section provides specific content or functionality as follows.  
 
-Wireframe created with the help of online service [Wireframe](https://wireframe.cc)  
-  
-![Wireframe for site](documentation/wireframe01.webp)
+![Wireframe for site](assets/documentation/wireframe01.webp)
 -----
 
-## Features Present Across the Project
+## Present Features Across the Project
 
 -----
 
-## Manual testing
+## Future Features on Stand-by
+
+-----
+
+## Testing
+
+### Manual Testing
 
 Error with the proper formating of the images in the gallery because of the missed action to reload the page, ignoring cached content.  
 
-![Error with formating](documentation/error04.webp)
+![Error with formating](assets/documentation/error04.webp)
+-----
+
+### Validator Testing
+
+-----
+
+### Issues to be fixed
+
 -----
 
 ## Deployment
 
 -----
 
-## Future Features
+### Local Deployment
+
+-----
+
+### Cloud Deployment
+
+Live site is on the location: *https://silver25.github.io/organic-dairy-farm/*
 
 -----
 
@@ -70,7 +88,8 @@ Conversion of the images from JPG file format to WEBP file format:
 - using Windows software [IrfanView](https://www.irfanview.com/) with plugin WEBP - (version 4.63, allows IrfanView to read/write WEBP (Weppy Format) files)  
 - using online tool [FreeConvert](https://www.freeconvert.com/jpg-to-webp)  
 
-I would like to express gratitude to Code Institute and Love Running for offering a valuable step-by-step guide that was instrumental in creating the basis for this website.
+I would like to express gratitude to **Code Institute** and **Love Running** for offering a valuable step-by-step guide that was instrumental in creating the basis for this website.  
+Last but not the least is big THANKS to my mentor **Rory** for guidance and sugestions through project.
 
 -----
 
