@@ -32,13 +32,13 @@ h1, h2, h3 {
     font-family: "Bentham", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
   
-  .palanquin-regular {
+.palanquin-regular {
     font-family: "Palanquin", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
   
 
 /* ----- Header of the page ----- */
@@ -216,13 +216,22 @@ main {
 .paragraph {
     position: relative;
     padding: 20px;
-  }
+}
   
-  .paragraph p {
+.paragraph p {
     color: navy;
     line-height: 1.5; /* Adjust line spacing as needed */
     margin-bottom: 15px; /* Add spacing between paragraphs */
-  }
+}
+
+.paragraph a {
+    text-decoration: none;
+}
+
+.paragraph a:hover {
+    text-decoration: underline overline;
+}
+
 
 /* Meetup/Shop locations section */
 #times {

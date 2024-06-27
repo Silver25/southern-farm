@@ -48,8 +48,6 @@ The main sections include
 - HTML: The markup language used to structure the content of the webpage.
 - CSS: The stylesheet language used to style the visual presentation of the webpage.
 
-Each section provides specific content or functionality as follows...  
-
 -----
 
 ## Visual Presentation
@@ -79,22 +77,65 @@ Each section provides specific content or functionality as follows...
 
 ### Images
 
-## Present Features Across the Project
+## Present Features across the Project
 
-- <details>
-<summary>Landing (Home) page Title as link <b style="color: yellow;">(open here)</b></summary>
-<!-- Change code from ![Wireframe for site](assets/documentation/wireframe01.webp) -->
-<img src="assets/documentation/wireframe01.webp">
+Each section provides specific content or functionality as follows...
+
+<details>
+<summary>Top navigation bar through all pages <b style="color: yellow;">(open here)</b></summary>
+<p>Navigation on top of all pages with Title as a link on left side and navigation links adapted for desktop and mobile screens on the right.</p>
+<img src="assets/documentation/feature-topnav-desktop.webp"><br>
+<img src="assets/documentation/feature-topnav-mobile.webp">
 </details>
-- Navigation Bar for desktop view
-- Navigation Bar for mobile view
-- The Hero Image with Tagline
-  - Website tagline is a short phrase that helps people understand what this website or company does or specializes in. Taglines are still relevant and are important for helping people understand website content, particularly when they’re not familiar with presenter.
-- About Us info text section
-- Grouped info text boxes
-- Visual as text breaker
-- Timetable or working locations
-- Social Media icons as a links in the Footer
+
+<details>
+<summary>The Hero Image with Tagline only on landing page <b style="color: yellow;">(open here)</b></summary>
+<p>Website tagline is a short phrase that helps people understand what this website or company does or specializes in. Taglines are still relevant and are important for helping people understand website content, particularly when they’re not familiar with presenter.</p>
+<img src="assets/documentation/feature-hero-desktop.webp"><br>
+<img src="assets/documentation/feature-hero-mobile.webp">
+</details>
+
+<details>
+<summary>About Us info text section only on landing page <b style="color: yellow;">(open here)</b></summary>
+<p>Landing (Home) page text with presenting basic information about business and services.</p>
+<img src="assets/documentation/feature-about-desktop.webp"><br>
+<img src="assets/documentation/feature-about-mobile.webp">
+</details>
+
+<details>
+<summary>Grouped info text boxes only on landing page <b style="color: yellow;">(open here)</b></summary>
+<p>Landing (Home) page text with accent on benefits of using business services.</p>
+<img src="assets/documentation/feature-benefit-desktop.webp"><br>
+<img src="assets/documentation/feature-benefit-mobile.webp">
+</details>
+
+<details>
+<summary>Visual as text breaker only on landing page <b style="color: yellow;">(open here)</b></summary>
+<p>Landing (Home) page image of cow with role as refreshment between block of text and related to the business services.</p>
+<img src="assets/documentation/feature-image-desktop.webp"><br>
+<img src="assets/documentation/feature-image-mobile.webp">
+</details>
+
+<details>
+<summary>Timetable only on landing page <b style="color: yellow;">(open here)</b></summary>
+<p>Landing (Home) page Timetable or working locations presented as a blocks of text and related to the business working hours and location where services are offered.</p>
+<img src="assets/documentation/feature-times-desktop.webp"><br>
+<img src="assets/documentation/feature-times-mobile.webp">
+</details>
+
+<details>
+<summary>Footer icons through all pages <b style="color: yellow;">(open here)</b></summary>
+<p>Social Media icons as a links to every particular online service, opening in the new tab/window and placed in the Footer of every page.</p>
+<img src="assets/documentation/feature-footer-desktop.webp"><br>
+<img src="assets/documentation/feature-footer-mobile.webp">
+</details>
+
+<details>
+<summary>Free stuff intro text on Freebies page <b style="color: yellow;">(open here)</b></summary>
+<p>Landing (Home) page Social Media icons as a links to every particular online service, opening in the new tab/window and placed in the Footer.</p>
+<img src=""><br>
+<img src="">
+</details>
 - Contact form on Connect.html page
 - 404 Error customized page
 
@@ -326,23 +367,28 @@ For the fast or more detailed explanation of some part of the code resources to 
 - https://web.dev/
 
 Used images for Index page  
-- Hero image: horizon.jpg = by Felix Mittermeier on https://pxhere.com  
+- Hero image: horizon.webp = by Felix Mittermeier on https://pxhere.com  
 - Cow head below paragraphs = by jod67 from https://istock.com  
-- Timetables bgr image: panoramic.jpg = Open source image from https://publicdomainpictures.net  
-- Cow head on 404 page = by jamesjames2541 from https://istock.com
+- Timetables bgr image: panoramic.webp = Open source image from https://publicdomainpictures.net  
 - Icons from https://fontawesome.com/v4/icons/ 
 
 Used images for the Freebies page  
-- dairy-products.jpg = https://www.health.harvard.edu  
-- milk-in-glass.jpg = https://www.forbes.com  
-- organic-milk.jpg = https://www.thefrozengarden.com  
-- milkshake.jpg = https://www.eatingwell.com  
-- cheese.jpg = https://www.healthline.com/nutrition/healthiest-cheese  
-- cheese-pile.jpg = https://www.gq.com/story/the-surprising-health-benefits-of-cheese  
-- butter-plate.jpg = https://blog.providence.org/regional-blog-news  
-- sour-cream.jpg = https://www.realsimple.com  
-- soften-butter.jpg = https://cravingcork.ie  
-- yogurt.jpg = https://cookidoo.co.uk/  
+- dairy-products.webp = https://www.health.harvard.edu  
+- milk-in-glass.webp = https://www.forbes.com  
+- organic-milk.webp = https://www.thefrozengarden.com  
+- milkshake.webp = https://www.eatingwell.com  
+- cheese.webp = https://www.healthline.com/nutrition/healthiest-cheese  
+- cheese-pile.webp = https://www.gq.com/story/the-surprising-health-benefits-of-cheese  
+- butter-plate.webp = https://blog.providence.org/regional-blog-news  
+- sour-cream.webp = https://www.realsimple.com  
+- soften-butter.webp = https://cravingcork.ie  
+- yogurt.webp = https://cookidoo.co.uk/  
+- Coloring book PDF = https://www.supercoloring.com/coloring-pages/tags/farm
+- cow-404.webp = by jamesjames2541 from https://istock.com
+
+Used PDF documents on Freebies page for download
+- "Recipe eBook" by Kyle Robert Annasenz (https://www.dailysciencefiction.com/)
+- "Organic Dairy Farming" by Dan Clavin (https://www.teagasc.ie/)
   
 ### Text Tools
 
