@@ -7,7 +7,7 @@
 Discover the authentic flavor of genuine dairy products, brought to you directly from our pasture-raised cows. At Dairy Farm, we prioritize organic farming methods that prioritize the welfare and contentment of our animals. This dedication guarantees the production of the finest and most delectable milk and dairy products available, ensuring a truly exceptional experience for your taste buds.  
 
 <details>
-<summary>Responsive visual (open here)</summary>
+<summary>Responsive visual <b style="color: yellow;">(open here)</b></summary>
 <!-- Change code from ![Wireframe for site](assets/documentation/wireframe01.webp) -->
 <img src="assets/documentation/intro-responsive2.webp">
 </details>
@@ -57,9 +57,18 @@ Each section provides specific content or functionality as follows...
 ## Wireframes
 
 <details>
-<summary>Wireframe for desktop visual (open here)</summary>
+<summary>Wireframe for desktop visual <b style="color: yellow;">(open here)</b></summary>
 <!-- Change code from ![Wireframe for site](assets/documentation/wireframe01.webp) -->
 <img src="assets/documentation/wireframe01.webp">
+</details>
+
+<details>
+<summary>Wireframes for mobile visual <b style="color: yellow;">(open here)</b></summary>
+<img src="assets/documentation/wireframe02.webp">
+<img src="assets/documentation/wireframe03.webp">
+<img src="assets/documentation/wireframe04.webp">
+<img src="assets/documentation/wireframe05.webp">
+<img src="assets/documentation/wireframe06.webp">
 </details>
 
 ### Fonts
@@ -97,12 +106,20 @@ Each section provides specific content or functionality as follows...
 
 ### Manual Testing
 
-Error with the proper formating of the images in the gallery because of the missed action to reload the page, ignoring cached content.  
-
-![Error with formating](assets/documentation/error04.webp)
+<details>
+<summary>Error with formating <b style="color: yellow;">(open here)</b></summary>
+<p>Error with the proper formating of the images in the gallery because of the missed action to reload the page, ignoring cached content.<br>
+In this case just missed proper refreshing of the browser</p>
+<img src="assets/documentation/error04.webp">
+</details>
 -----
 
 ### Validator Testing
+
+W3C HTML Validator: https://validator.w3.org/  
+W3C CSS Validator: https://jigsaw.w3.org/css-validator  
+Lighthouse Audit tool: https://pagespeed.web.dev/  
+Responsive Design: https://ui.dev/amiresponsive
 
 -----
 
@@ -125,7 +142,12 @@ To test and view HTML5 and CSS3 project locally, a simple server environment nee
 - Use the browser's developer tools (*Inspect* or **F12**) to inspect and debug any styling issues.
 
 Or to simplify if Repository for the project is already created on GitHub all content of the project can be downloaded over the action button and option "Download".
-![GitGub option for download full project](assets/documentation/github-download.webp)
+
+<details>
+<summary>GitGub option to download full project in once <b style="color: yellow;">(open here)</b></summary>
+<p>If all of the changes are saved (CTRL+S) and content updated on GitHub (git push) download of full project is available over green button "Code" and option "Download ZIP"</p>
+<img src="assets/documentation/github-download.webp">
+</details>
 
 -----
 
@@ -199,13 +221,5 @@ $ git commit -m "Description of changes in code"
 $ git push
 $ git status
 $ clear
-
------
-
-### Checkers
-
-W3C HTML Validator: https://validator.w3.org/  
-W3C CSS Validator: https://jigsaw.w3.org/css-validator  
-Lighthouse Audit tool: https://pagespeed.web.dev/  
-Responsive Design: https://ui.dev/amiresponsive  
+  
 -->
