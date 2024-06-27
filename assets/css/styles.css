@@ -224,10 +224,6 @@ main {
     margin-bottom: 15px; /* Add spacing between paragraphs */
 }
 
-.paragraph a {
-    text-decoration: none;
-}
-
 .paragraph a:hover {
     text-decoration: underline overline;
 }
