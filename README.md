@@ -106,6 +106,18 @@ Each section provides specific content or functionality as follows...
 
 ### Manual Testing
 
+The process of manually testing a website can be as straightforward as accessing a web page or application in a controlled environment, manually navigating through a series of predetermined test scenarios, and recording the outcomes of each test on a spreadsheet. This initial approach is commonly adopted by software teams when they initially prioritize quality assurance.
+
+Testing process was continuously applied through the time of building the website. 
+- Browsers used for testing purposes:
+  - Chrome as the primary development tool
+  - Edge, Opera, Brave, Min, 
+- Devices used for testing purposes: 
+  - desktop devices with Windows 10 and 11 OS were used, from 11" to 15" screen size
+  - tablet devices were unavailable, option with browser Dev Tools applied
+  - mobile devices were Nokia X10, Samsung Galaxy M13, Samsung Galaxy A10 and Samsung Galaxy J6 (as obsolete device)
+  Select a variety of web browsers (, Firefox, Safari, ) and devices (, ) to test for cross-browser compatibility and responsiveness.
+
 <details>
 <summary>Error caused by missing heading <b style="color: yellow;">(open here)</b></summary>
 <p>Error in code validation repaired with adding one H2 heading in code and then hidden with proper styling</p>
@@ -167,6 +179,12 @@ W3C HTML Validator: https://validator.w3.org/
 <img src="assets/documentation/w3validator-html-connect2.webp">
 </details>
 
+<details>
+<summary>Validation of Error 404.html page <b style="color: yellow;">(open here)</b></summary>
+<p>Online validation tool check HTML code by input of URL from where website is deployed.</p>
+<img src="assets/documentation/w3validator-html-404.webp">
+</details>
+
 -----
 
 W3C CSS Validator: https://jigsaw.w3.org/css-validator
@@ -179,12 +197,31 @@ W3C CSS Validator: https://jigsaw.w3.org/css-validator
 
 -----
 
-Lighthouse Audit tool: https://pagespeed.web.dev/  
-Responsive Design: https://ui.dev/amiresponsive
+Lighthouse in Chrome DevTools
+
+Lighthouse is an open-source, automated Audit tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, SEO, and more. Lighthouse is integrated directly into the Chrome DevTools, under the "Lighthouse" panel.
+
+<details>
+<summary>Lighthouse metrics <b style="color: yellow;">(open here)</b></summary>
+<p>PageSpeed Insights (PSI) reports on the user experience of a page on both mobile and desktop devices</p>
+<img src="assets/documentation/lighthouse-report.webp">
+</details>
 
 -----
 
-### Issues to be fixed
+PageSpeed Insights (PSI): https://pagespeed.web.dev/
+
+<details>
+<summary>PageSpeed score for Desktop <b style="color: yellow;">(open here)</b></summary>
+<p>PageSpeed Insights (PSI) reports on the user experience of a page on both mobile and desktop devices</p>
+<img src="assets/documentation/lighthouse-desktop.webp">
+</details>
+
+<details>
+<summary>PageSpeed score for Mobile <b style="color: yellow;">(open here)</b></summary>
+<p>PageSpeed Insights (PSI) reports on the user experience of a page on both mobile and desktop devices</p>
+<img src="assets/documentation/lighthouse-mobile.webp">
+</details>  
 
 -----
 
@@ -200,6 +237,12 @@ To test and view HTML5 and CSS3 project locally, a simple server environment nee
 - Test the layout and functionality on different browsers (*Portable Browsers*).
 - Use the browser's developer tools (*Inspect* or **F12**) to inspect and debug any styling issues.
 
+<details>
+<summary>Local deployment structure image <b style="color: yellow;">(open here)</b></summary>
+<p>Local development occurs on personal computer or mobile device, and only available to person who has access to the same computer. No one in outside world can access and view those pages.</p>
+<img src="assets/documentation/deployment-local.webp">
+</details><br>  
+
 Or to simplify if Repository for the project is already created on GitHub all content of the project can be downloaded over the action button and option "Download".
 
 <details>
@@ -212,7 +255,24 @@ Or to simplify if Repository for the project is already created on GitHub all co
 
 ### Cloud Deployment
 
-Live site is on the location: *https://silver25.github.io/organic-dairy-farm/*
+Here's a step-by-step process for deploying your website on GitHub Pages:  
+
+- **Prepare your Website Files**
+  - Build your website files locally using your preferred framework (HTML, CSS, Javascript etc.).
+  - Ensure your website has an index.html, index.md, or README.md file, as GitHub Pages looks for this as the entry point.
+  - Organize your website files into a clear structure for easy navigation.
+- **Create a GitHub Repository**
+  - If you don't have one already, create a new account and repository on GitHub.com.
+  - Push your website files to the newly created repository using Git commands or the GitHub desktop application.
+- **Configure Publishing Source (Using Branch)**
+  - Go to your repository settings on GitHub.
+  - Navigate to the "*Code and automation*" section and click "*Pages*".
+  - Under "*Build and deployment*", choose "*Deploy from a branch*" in the "*Source*" section.
+  - Select the branch containing your website files from the "*Branch" dropdown menu. Optionally, choose a specific folder within the branch using the "*Folder" dropdown menu (useful for subdirectory deployments).
+  - Click "*Save*" to activate your website deployment.
+- **Accessing Your Deployed Website**
+  - Once configured, GitHub Pages will automatically build and publish your website.
+  - This live site is on the location: *https://silver25.github.io/organic-dairy-farm/*
 
 -----
 
