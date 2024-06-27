@@ -81,13 +81,22 @@ Each section provides specific content or functionality as follows...
 
 ## Present Features Across the Project
 
-- Landing (Home) page
-- Navigation Bar
+- <details>
+<summary>Landing (Home) page Title as link <b style="color: yellow;">(open here)</b></summary>
+<!-- Change code from ![Wireframe for site](assets/documentation/wireframe01.webp) -->
+<img src="assets/documentation/wireframe01.webp">
+</details>
+- Navigation Bar for desktop view
+- Navigation Bar for mobile view
 - The Hero Image with Tagline
   - Website tagline is a short phrase that helps people understand what this website or company does or specializes in. Taglines are still relevant and are important for helping people understand website content, particularly when they’re not familiar with presenter.
-- About Me Section
-- The Footer
-- Connect
+- About Us info text section
+- Grouped info text boxes
+- Visual as text breaker
+- Timetable or working locations
+- Social Media icons as a links in the Footer
+- Contact form on Connect.html page
+- 404 Error customized page
 
 -----
 
@@ -99,6 +108,7 @@ Each section provides specific content or functionality as follows...
 4. [_] Blog/Tutorial section with sugestions how-to-do farming.  
 5. [_] Web shop for online ordering of goods presented as product per page.
 6. [_] Extra information in the Footer section (links, contact details, copyright, etc.)
+7. [_] Light/dark mode toggle
 
 -----
 
@@ -108,15 +118,42 @@ Each section provides specific content or functionality as follows...
 
 The process of manually testing a website can be as straightforward as accessing a web page or application in a controlled environment, manually navigating through a series of predetermined test scenarios, and recording the outcomes of each test on a spreadsheet. This initial approach is commonly adopted by software teams when they initially prioritize quality assurance.
 
+Basic knowledge of HTML elements and CSS properties is helpful in identifying potential issues and fixing them. 
+
 Testing process was continuously applied through the time of building the website. 
-- Browsers used for testing purposes:
+- Browsers used for cross-browser compatibility and responsiveness:
   - Chrome as the primary development tool
-  - Edge, Opera, Brave, Min, 
+  - Edge, Opera, Brave, Min, SlimJet, Falkon and Iron
 - Devices used for testing purposes: 
   - desktop devices with Windows 10 and 11 OS were used, from 11" to 15" screen size
   - tablet devices were unavailable, option with browser Dev Tools applied
   - mobile devices were Nokia X10, Samsung Galaxy M13, Samsung Galaxy A10 and Samsung Galaxy J6 (as obsolete device)
-  Select a variety of web browsers (, Firefox, Safari, ) and devices (, ) to test for cross-browser compatibility and responsiveness.
+
+**Testing Process:**
+- *Tested Content*: Before adding actual content, inserted some test content into HTML file and run it in web browser to ensure that the code is working as expected.
+- *User Interface (UI)*: Verified the layout, visual design, and overall user experience. Checked for consistent formatting, proper image loading, and readability across different screen sizes.
+- *Readability*: Examined displayed text (font family, font size, color contrast).
+- *Navigation*: Tested all navigation elements like menus, buttons, and links. Ensured they lead to the correct destination pages and function smoothly.
+- *Forms & Functionality*: Tested form (contact) to be sure it submit data correctly, provide clear error messages for invalid inputs, and follow expected functionalities, sending data.
+- *Content Accuracy*: Reviewed all website content for accuracy, grammar, and spelling mistakes. Verified that descriptions and other information are up-to-date and consistent.
+- *Responsiveness*: Validated responsiveness of the website loading Dev Tools option of split screen and resized the browser window across different browsers.
+  
+| Functionality | Expectation | Grade |
+|--------------|-------------------------|------|
+| visual style | how it looks in browser | pass |
+| logo text | link to landing page | pass |
+| navigation | are all links working | pass |
+| grafics | visibility of all images | pass |
+| font type | how fonts are presented | pass |
+| linked text | accurate text links | pass |
+| position | where elements are positioned | pass|
+| bgr images | how bgr elements are displayed | pass |
+| reaction | will particular elements react as expected | pass |
+| footer | are elements visible | pass |
+| footer | are elements functional | pass |
+| form | is it form displayed as expected | pass |
+| form | are form functions working | pass |
+| 404 | is page approachable | pass |
 
 <details>
 <summary>Error caused by missing heading <b style="color: yellow;">(open here)</b></summary>
@@ -136,6 +173,10 @@ Testing process was continuously applied through the time of building the websit
 In this case just missed proper refreshing of the browser</p>
 <img src="assets/documentation/error04.webp">
 </details>
+
+### Tests to apply
+
+- *Accessibility*: Test the website's accessibility features for users with disabilities. Check for proper keyboard navigation, screen reader compatibility, and clear alternative text descriptions for images.
 
 -----
 
