@@ -174,7 +174,7 @@ W3C CSS Validator: https://jigsaw.w3.org/css-validator
 <details>
 <summary>Validation of styles.css code <b style="color: yellow;">(open here)</b></summary>
 <p>Online validation tool check CSS code by input of clean code in text-input area.</p>
-<img src="assets/documentation/w3validator-html-connect2.webp">
+<img src="assets/documentation/w3validator-css.webp">
 </details>
 
 -----

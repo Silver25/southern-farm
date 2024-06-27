@@ -70,11 +70,8 @@ header a {
 }
 
 .active {
-    /*border-bottom: 1px solid #3a3a3a;*/
-    background-color: #007bff;
-    color: #fff;
+    border-bottom: 1px solid #3a3a3a;
     font-weight: bold;
-    padding: 2%;
 }
 
 /* Top navigation styles with dropdown button */
@@ -180,6 +177,40 @@ main {
     align-items: center;
     justify-content: center;
 }
+
+/* 404 Error page */
+#lost {  /* section on 404 Error page */
+    width: 90%;
+    margin: 20px auto;
+}
+
+#lost h3 {
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#oval-404-image {
+    background: url("../images/cow-404.webp") no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 20%; /* Rounding corners on 404 image */
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.box404-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box404-content a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
 
 /* Index, Freebies, Connect page */
 .paragraph {
