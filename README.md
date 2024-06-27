@@ -107,17 +107,78 @@ Each section provides specific content or functionality as follows...
 ### Manual Testing
 
 <details>
-<summary>Error with formating <b style="color: yellow;">(open here)</b></summary>
+<summary>Error caused by missing heading <b style="color: yellow;">(open here)</b></summary>
+<p>Error in code validation repaired with adding one H2 heading in code and then hidden with proper styling</p>
+<img src="assets/documentation/error02.webp">
+</details>  
+
+<details>
+<summary>Error caused by wrong font value <b style="color: yellow;">(open here)</b></summary>
+<p>Error in CSS code validation fixed with removing wrong line from code.</p>
+<img src="assets/documentation/error03.webp">
+</details>  
+
+<details>
+<summary>Display issue with formating <b style="color: yellow;">(open here)</b></summary>
 <p>Error with the proper formating of the images in the gallery because of the missed action to reload the page, ignoring cached content.<br>
 In this case just missed proper refreshing of the browser</p>
 <img src="assets/documentation/error04.webp">
 </details>
+
 -----
 
 ### Validator Testing
 
-W3C HTML Validator: https://validator.w3.org/  
-W3C CSS Validator: https://jigsaw.w3.org/css-validator  
+W3C HTML Validator: https://validator.w3.org/
+
+<details>
+<summary>Validation of Index.html page <b style="color: yellow;">(open here)</b></summary>
+<p>Online validation tool check HTML code by input of URL from where website is deployed.</p>
+<img src="assets/documentation/w3validator-html-index.webp">
+</details>
+
+<details>
+<summary>Validation of Index.html code <b style="color: yellow;">(open here)</b></summary>
+<p>Online validation tool check HTML code by input of clean code in text-input area.</p>
+<img src="assets/documentation/w3validator-html-index2.webp">
+</details>
+
+<details>
+<summary>Validation of Freebies.html page <b style="color: yellow;">(open here)</b></summary>
+<p>Online validation tool check HTML code by input of URL from where website is deployed.</p>
+<img src="assets/documentation/w3validator-html-freebies.webp">
+</details>
+
+<details>
+<summary>Validation of Freebies.html code <b style="color: yellow;">(open here)</b></summary>
+<p>Online validation tool check HTML code by input of clean code in text-input area.</p>
+<img src="assets/documentation/w3validator-html-freebies2.webp">
+</details>
+
+<details>
+<summary>Validation of Connect.html page <b style="color: yellow;">(open here)</b></summary>
+<p>Online validation tool check HTML code by input of URL from where website is deployed.</p>
+<img src="assets/documentation/w3validator-html-connect.webp">
+</details>
+
+<details>
+<summary>Validation of Connect.html code <b style="color: yellow;">(open here)</b></summary>
+<p>Online validation tool check HTML code by input of clean code in text-input area.</p>
+<img src="assets/documentation/w3validator-html-connect2.webp">
+</details>
+
+-----
+
+W3C CSS Validator: https://jigsaw.w3.org/css-validator
+
+<details>
+<summary>Validation of styles.css code <b style="color: yellow;">(open here)</b></summary>
+<p>Online validation tool check CSS code by input of clean code in text-input area.</p>
+<img src="assets/documentation/w3validator-html-connect2.webp">
+</details>
+
+-----
+
 Lighthouse Audit tool: https://pagespeed.web.dev/  
 Responsive Design: https://ui.dev/amiresponsive
 
@@ -128,8 +189,6 @@ Responsive Design: https://ui.dev/amiresponsive
 -----
 
 ## Deployment
-
------
 
 ### Local Deployment
 
