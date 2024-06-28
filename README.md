@@ -296,10 +296,6 @@ In this case just missed proper refreshing of the browser</p>
 <img src="assets/documentation/error04.webp">
 </details>
 
-### Tests to apply
-
-- *Accessibility*: Test the website's accessibility features for users with disabilities. Check for proper keyboard navigation, screen reader compatibility, and clear alternative text descriptions for images.
-
 -----
 
 ### Validator Testing
