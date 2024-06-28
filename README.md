@@ -132,11 +132,25 @@ Each section provides specific content or functionality as follows...
 
 <details>
 <summary>Free stuff intro text on Freebies page <b style="color: yellow;">(open here)</b></summary>
-<p>Landing (Home) page Social Media icons as a links to every particular online service, opening in the new tab/window and placed in the Footer.</p>
-<img src=""><br>
-<img src="">
+<p>Intro informative text about free stuff which are in ofer over the links to visitors. Feature available only on Freebies page.</p>
+<img src="assets/documentation/feature-freebies-desktop.webp"><br>
+<img src="assets/documentation/feature-freebies-mobile.webp">
 </details>
-- Contact form on Connect.html page
+
+<details>
+<summary>Image gallery on Freebies page <b style="color: yellow;">(open here)</b></summary>
+<p>Gallery of images which represents products in offer from business.</p>
+<img src="assets/documentation/feature-gallery-desktop.webp"><br>
+<img src="assets/documentation/feature-gallery-mobile.webp">
+</details>
+
+<details>
+<summary>Contact form on Connect page <b style="color: yellow;">(open here)</b></summary>
+<p>A contact form on web page of business provides a convenient and secure way for visitors to reach, boosting lead generation and user trust. Contact form only on Connect page.</p>
+<img src="assets/documentation/feature-contact-desktop.webp"><br>
+<img src="assets/documentation/feature-contact-mobile.webp">
+</details>
+
 - 404 Error customized page
 
 -----
