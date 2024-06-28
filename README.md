@@ -22,27 +22,46 @@ The purpose of this project is to build a responsive website using pure HTML and
 
 Currently, the Project is for educational purposes only and without any relation to eventual existing real-life similarities. The website's content is specifically aimed at the urban population, with a strong emphasis on the relationship between farming and family, as well as the introduction of healthy products.. Users will be able to navigate through the website using a functional navigation bar that will take them to different sections of the website.  
 
-User goals:
-- goal
-- goal
-- goal  
+**User goals:**
+- Learn about the practices of organic dairy farming.
+- Find out if organic dairy products are worth the price difference.
+- Locate organic dairy farms near them.
+- Research the ethical and environmental benefits of organic dairy farming.
+- Discover recipes that use organic dairy products.
+- Buy products on-site or online.  
 
-Business goals:
-- goal
-- goal
-- goal  
+**Business goals:**
+- Educate and build trust informing potential customers about organic dairy farming practices, dispelling myths and highlighting the benefits.
+- Increase brand awareness establishing farm as a leader in the organic dairy space, attracting new customers.
+- Drive sales converting website visitors into paying customers for organic dairy products, either directly or through partnerships with retailers.
+- Generate leads capturing contact information from interested users for future marketing efforts and promotions.
+- Foster community connecting with potential customers who share your values and build long-term loyalty.
 
-User Stories:
-1. story
-2. story
-3. story
-4. story
-5. story
+**User Stories:**
+1. The Curious Consumer
+   - As a health-conscious consumer, I want to learn more about organic dairy farming practices to understand what I'm putting in my body.
+   - I expect to see: Clear explanations of organic dairy farming methods, potential health benefits, and comparisons to conventional dairy farming.
+   - This will help me: Make informed decisions about the dairy products I choose to buy.
 
-The main sections include  
-- Home page with About content
-- Freebies page with free content visitors can download
-- Connect page  
+2. The Environmentally Conscious Shopper
+   - As someone concerned about the environment, I want to know how organic dairy farming impacts the land and animals.
+   - I expect to see: Information about sustainable practices, animal welfare standards, and how the farm reduces its environmental footprint.
+   - This will help me: Feel confident that my dairy purchases support responsible farming practices.
+
+3. The Local Foodie
+   - As someone who values locally sourced food, I want to find out if there are organic dairy farms near me.
+   - I expect to see: A map or list of organic dairy farms in the area, with information about their products and how to purchase them.
+   - This will help me: Support local businesses and enjoy fresh, organic dairy products.
+
+4. The Budget-Minded Buyer
+   - As a cost-conscious shopper, I'm curious if organic dairy products are worth the extra price.
+   - I expect to see: Information about the benefits of organic dairy compared to conventional options, justifying the potential cost difference.
+   - This will help me: Decide if organic dairy products are a good fit for my budget and priorities.
+
+5. The Recipe Enthusiast
+   - As someone who loves cooking with dairy, I want to find delicious recipes that use organic dairy products.
+   - I expect to see: A collection of recipes featuring organic dairy ingredients, along with information about the farm's products.
+   - This will help me: Get creative in the kitchen and explore the possibilities of organic dairy.
 
 **Technologies Used:**
 - HTML: The markup language used to structure the content of the webpage.
@@ -51,6 +70,12 @@ The main sections include
 -----
 
 ## Visual Presentation
+
+The main sections include  
+- Home page with About content
+- Freebies page with free content visitors can download
+- Connect page  
+- 404 page {as hidden element until action happens}
 
 ## Wireframes
 
@@ -71,11 +96,49 @@ The main sections include
 
 ### Fonts
 
+Used font for body sections (regular text) from family "**Palanquin**" and sans-serif style.  
+Used font for headingy sections (titles and subtitles) from family "**Bentham**" and sans-serif style.  
+Palanquin and Bentham are both interesting fonts where Palanquin is a clean, modern sans-serif font, while Bentham has a decorative, serif style with flourishes. Palanquin excels for body text due to its clarity. Best practice and decision is to use Bentham for headings to add a touch of personality, while using Palanquin for body text to ensure readability.
+
 ### Colours
+
+Basic guidance for colours was themed around the product - milk and a familiar style known worldwide - white and blue.  
+
+#3a3a3a
+- font colour used for content in pharagraphs
+- shadow for boxes
+- bottom borders for navigation links  
+
+#252525
+- font colour used for headings in pharagraphs  
+
+white or #ffffff
+- background colour for all pages
+- background colour for navigation bar
+- background colour for tagline box, used with transparency
+- font colour for Timetable section
+- contact form button font
+- social media background colour  
+
+#fafafa
+- font heading colour for Timetable section
+
+navy or #000080
+- font colour used for tagline text
+- font colour
+- contact form button background
+- social media icon colour  
+
+#007bff
+- contact form button background colour display with hover action
+
+#cccccc
+- border colour for contact form
+
 
 ### Icons
 
-### Images
+All icons are find in the Fontawesome Icon library, linked from there with script and are implemented as classes in the <i> tag.
 
 ## Present Features across the Project
 
@@ -151,7 +214,11 @@ Each section provides specific content or functionality as follows...
 <img src="assets/documentation/feature-contact-mobile.webp">
 </details>
 
-- 404 Error customized page
+<details>
+<summary>404 Error customized page <b style="color: yellow;">(open here)</b></summary>
+<p>A customized 404 error page turns a frustrating dead end into a chance to retain visitors with helpful guidance and brand personality. Equipped with funny image, text and with "Back" link to landing page.</p>
+<img src="assets/documentation/feature-404-desktop.webp">
+</details>
 
 -----
 
