@@ -1,6 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-# Dairy Farm
+# Southern Farm
 
 ![Project site on different screens](assets/documentation/intro-responsive.webp)  
 
@@ -12,7 +10,7 @@ Discover the authentic flavor of genuine dairy products, brought to you directly
 <img src="assets/documentation/intro-responsive2.webp">
 </details>
 
-Live site is on the location: **https://silver25.github.io/organic-dairy-farm/**
+Live site is on the location: **https://silver25.github.io/southern-farm/**
 
 -----
 
@@ -102,17 +100,21 @@ Palanquin and Bentham are both interesting fonts where Palanquin is a clean, mod
 
 ### Colours
 
-Basic guidance for colours was themed around the product - milk and a familiar style known worldwide - white and blue.  
+<details>
+<summary>Colour Palette <b style="color: yellow;">(open here)</b></summary>
+<p>Basic guidance for colours was themed around the product - milk and a familiar style known worldwide - white and blue.</p>
+<img src="assets/documentation/colour-palette.webp">
+</details>  
 
-#3a3a3a
+**#3a3a3a** (Jet)
 - font colour used for content in pharagraphs
 - shadow for boxes
 - bottom borders for navigation links  
 
-#252525
+**#252525** (Eirie black)
 - font colour used for headings in pharagraphs  
 
-white or #ffffff
+**#ffffff** (White)
 - background colour for all pages
 - background colour for navigation bar
 - background colour for tagline box, used with transparency
@@ -120,25 +122,25 @@ white or #ffffff
 - contact form button font
 - social media background colour  
 
-#fafafa
+**#fafafa** (Seasalt)
 - font heading colour for Timetable section
 
-navy or #000080
+**#000080**
 - font colour used for tagline text
 - font colour
 - contact form button background
 - social media icon colour  
 
-#007bff
+**#007bff** (Azure)
 - contact form button background colour display with hover action
 
-#cccccc
+**#cccccc** (Silver)
 - border colour for contact form
 
 
 ### Icons
 
-All icons are find in the Fontawesome Icon library, linked from there with script and are implemented as classes in the <i> tag.
+All icons are find in the Fontawesome Icon library, linked from there with script and are implemented as classes in the &lt;i> tag.
 
 ## Present Features across the Project
 
@@ -430,8 +432,13 @@ Here's a step-by-step process for deploying your website on GitHub Pages:
   - Select the branch containing your website files from the "*Branch" dropdown menu. Optionally, choose a specific folder within the branch using the "*Folder" dropdown menu (useful for subdirectory deployments).
   - Click "*Save*" to activate your website deployment.
 - **Accessing Your Deployed Website**
-  - Once configured, GitHub Pages will automatically build and publish your website.
-  - This live site is on the location: *https://silver25.github.io/organic-dairy-farm/*
+  - This live site is on the location: *https://silver25.github.io/southern-farm/*
+
+<details>
+<summary>Deployment on Cloud (GitGub) <b style="color: yellow;">(open here)</b></summary>
+<p>Once configured, GitHub Pages will automatically build and publish your website.</p>
+<img src="assets/documentation/deployment-github.webp">
+</details>
 
 -----
 
